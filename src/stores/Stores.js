@@ -1,7 +1,7 @@
 'use strict';
 
 import Reflux from 'reflux';
-import ImageActions from '../actions/ActionActionCreators';
+import ImageActions from '../actions/Actions';
 
 let ImageStore = Reflux.createStore({
   listenables: [ImageActions],
@@ -10,7 +10,18 @@ let ImageStore = Reflux.createStore({
     this.fetchList();
   },
   fetchList() {
-    this.imagelist = [1, 2, 3, 4, 55];
+    this.imagelist = [{
+      name: '图片1',
+      key: 'key1'
+    },
+    {
+      name: '图片2',
+      key: 'key2'
+    },
+    {
+      name: '图片3',
+      key: 'key3'
+    }];
     this.trigger(this.imagelist);
   }
 });

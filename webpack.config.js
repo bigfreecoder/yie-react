@@ -19,7 +19,7 @@ module.exports = {
   devtool: 'sourcemap',
   entry: [
       'webpack/hot/only-dev-server',
-      './src/components/main.js'
+      './src/app.js'
   ],
 
   stats: {
@@ -40,7 +40,7 @@ module.exports = {
   module: {
     preLoaders: [{
       test: /\.(js|jsx)$/,
-      exclude: /node_modules/,
+      exclude: [/node_modules/, /echarts/],
       loader: 'eslint-loader'
     }],
     loaders: [{

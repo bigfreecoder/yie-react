@@ -18,7 +18,7 @@ module.exports = {
 
   debug: false,
   devtool: false,
-  entry: './src/components/main.js',
+  entry: './src/app.js',
 
   stats: {
     colors: true,
