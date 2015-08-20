@@ -1,5 +1,12 @@
 # 创宇盾星图
- * 前端架构 reactjs + reflux模型 + webpack + 百度echarts + grunt + less, 采用ES6语法+ babel解析器
+ * 前端架构:
+     + reactjs 创建组件
+     + reflux模型
+     + webpack打包
+     + 百度echarts
+     + grunt配置轻量任务
+     + less语法糖
+     + ES6 + babel解析器
 
 ## getting start
 
@@ -9,9 +16,11 @@
    + grunt serve会启动本地开发服务器 webpack-dev-server
    + webpack-dev-server方便使用热替换,程序一修改,界面马上改变
    + 所以本地开发路径为:[http://localhost:8000/webpack-dev-server/](http://localhost:8000/webpack-dev-server/) 不要奇怪
+ * `grunt test` 跑测试
 
 ### 线上模式
  * `npm install`
+ * `grunt test`
  * `grunt build`
   + 在dist 目录生产静态的文件,挂载到nignix 就行了
 
