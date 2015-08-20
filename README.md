@@ -1,5 +1,6 @@
 # 创宇盾星图
  * 前端架构 reactjs + reflux模型 + webpack + 百度echarts + grunt + less, 采用ES6语法+ babel解析器
+
 ## getting start
 
 ### 本地开发
