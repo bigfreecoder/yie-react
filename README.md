@@ -1,5 +1,5 @@
-# 创宇盾星图
- * 前端架构:
+# reacjs + reflux 最佳实践
+* 前端架构:
      + reactjs 创建组件
      + reflux模型
      + webpack打包
