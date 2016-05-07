@@ -5,8 +5,10 @@ import React from 'react/addons';
 import ImageStore from '../stores/Stores';
 import ImageActions from '../actions/Actions';
 
-import echarts from 'echarts/src/echarts';
-import 'echarts/src/chart/bar';
+//import echarts from 'echarts';
+//import 'echarts/src/chart/bar';
+import echarts from 'echarts/echarts';
+import 'echarts/chart/bar';
 
 // CSS
 import 'normalize.css';
